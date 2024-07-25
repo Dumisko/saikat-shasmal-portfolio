@@ -1,0 +1,28 @@
+[
+    {
+      "role": "B.tech CSE",
+      "organisation": "Jalpaiguri Government Engineering College",
+      "startDate": "Sept, 2022",
+      "endDate": "Present",
+      "experiences": ["CGPA: 7.72(current)"],
+      "imageSrc": "history/jgec.png"
+    },
+    {
+      "role": "Higher Secondary (WBCHSE)",
+      "organisation": "Aria Para High school",
+      "startDate": "June, 2019",
+      "endDate": "Jul, 2021",
+      "experiences": ["Grade: 81%"],
+      "imageSrc": "history/highersecondary.png"
+    },
+    {
+      "role": "Secondary (WBSE)",
+      "organisation": "Aria Para High school",
+      "startDate": "Jan, 2013",
+      "endDate": "May, 2019",
+      "experiences": [
+        "Grade: 81%"
+      ],
+      "imageSrc": "history/secondary.png"
+    }
+  ]

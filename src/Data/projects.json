@@ -1,0 +1,26 @@
+[
+    {
+      "title": "Tic-Tac-Toe game",
+      "imageSrc": "projects/tictactoe.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://dumisko.github.io/TicTacToeGameBysaikat/",
+      "source": "https://github.com/Dumisko/TicTacToeGameBysaikat"
+    },
+    {
+      "title": "Scientific Calculator",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to calculate for general and educational purposes.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://dumisko.github.io/Basic-Calculator/",
+      "source": "https://github.com/Dumisko/Basic-Calculator"
+    },
+    {
+      "title": "2028 Game",
+      "imageSrc": "projects/20482.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["HTML", "CSS", "Javascript"],
+      "demo": "https://dumisko.github.io/2048-game/",
+      "source": "https://github.com/Dumisko/2048-game"
+    }
+  ]
