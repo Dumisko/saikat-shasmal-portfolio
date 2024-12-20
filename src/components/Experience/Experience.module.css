@@ -22,6 +22,7 @@
   margin-top: 14px;
 }
 
+/*
 .skills {
   width: 45%;
   display: flex;
@@ -51,10 +52,84 @@
 }
 
 
-/* new added  */
+
 .skillImageContainer img:hover {
   transform: scale(1.3);
 }
+
+*/
+
+/* new code start 20/12/24 */
+
+.skills {
+  width: 45%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 37px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 11px;
+  animation: slideUp 0.6s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.skillImageContainer {
+  background-color: var(--color-secondary);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 120px;
+  height: 120px;
+  transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.skillImageContainer:hover {
+  transform: scale(1.1);
+  background-color: var(--color-secondary-dark); /* Optional hover effect */
+}
+
+.skillImageContainer img {
+  width: 75px;
+  transition: transform 0.3s ease;
+}
+
+.skillImageContainer img:hover {
+  transform: scale(1.3);
+}
+
+.skill p {
+  font-size: 25px;
+  font-family: var(--font-roboto);
+  font-weight: 500;
+}
+/* new code end */
 
 .historyimagestyle{
 border-radius: 30px;
@@ -64,11 +139,7 @@ border-radius: 30px;
   transform: scale(1.4);
   }
 
-.skill p {
-  font-size: 25px;
-  font-family: var(--font-roboto);
-  font-weight: 500;
-}
+
 
 .history {
   width: 45%;
