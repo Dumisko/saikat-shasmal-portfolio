@@ -25,3 +25,23 @@
   width: 100%;
 } 
 
+/* Responsive styling */
+@media (min-width: 600px) {
+  .projects {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+  }
+}
+
+@media (max-width: 600px) {
+  .title {
+    font-size: 24px;
+  }
+
+  .container {
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+}
+
