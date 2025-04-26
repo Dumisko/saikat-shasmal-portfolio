@@ -1,61 +1,19 @@
-/* @import "../../vars.css";
-
-.container {
-  margin-top: 76px;
-  color: var(--color-text);
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.title {
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.projects {
-  margin-top: 37px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: center;
-  gap: 15px;
-  width: 100%;
-} */
-
-/* the new code 24/12/24 */
-
 @import "../../vars.css";
 
-/* Base container styles */
 .container {
   margin-top: 76px;
   color: var(--color-text);
   margin-left: 10%;
   margin-right: 10%;
-  opacity: 0; /* Initial state for animation */
-  transform: translateY(30px); /* Initial state for animation */
-  transition: opacity 1s ease-in-out, transform 1s ease-in-out; /* Smooth transition */
 }
 
-/* Make the container visible when the state is set to true */
-.container.visible {
-  opacity: 1;
-  transform: translateY(0);
-}
-
-/* Title styling */
 .title {
   font-size: 35px;
   font-weight: 700;
   letter-spacing: 1.75px;
   text-transform: uppercase;
-  animation: fadeIn 1s ease-in-out forwards; /* Smooth fade-in effect for title */
 }
 
-/* Project grid styling */
 .projects {
   margin-top: 37px;
   display: flex;
@@ -65,52 +23,5 @@
   justify-content: center;
   gap: 15px;
   width: 100%;
-}
+} 
 
-/* Individual project card animation */
-.projects > div {
-  opacity: 0; /* Initial state for animation */
-  transform: translateY(20px); /* Initial state for animation */
-  animation: slideIn 0.8s ease-in-out forwards;
-}
-
-/* Staggered animation for child elements */
-.projects > div:nth-child(odd) {
-  animation-delay: 0.2s;
-}
-
-.projects > div:nth-child(even) {
-  animation-delay: 0.4s;
-}
-
-/* Keyframes for smooth animations */
-@keyframes fadeInUp {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
-}
-
-@keyframes slideIn {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
