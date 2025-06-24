@@ -24,7 +24,7 @@ function Contact() {
         
       </ul>
       <hr className={styles.end} />
-      <p className={styles.endline}> © 2024 saikatshasmal portfolio. All rights reserved.</p>
+      <p className={styles.endline}> © 2025 saikatshasmal portfolio. All rights reserved.</p>
     </footer>
   )
 }
