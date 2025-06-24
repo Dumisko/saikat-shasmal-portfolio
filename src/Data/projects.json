@@ -1,4 +1,19 @@
-[
+[  {
+      "title": "Weather Forecasting application",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["HTML", "CSS", "Javascript","ReactJs"],
+      "demo": "https://weather-forecasting-application-snowy.vercel.app/",
+      "source": "https://github.com/Dumisko/weather-forecasting-application"
+    },
+    {
+      "title": "Todo Application",
+      "imageSrc": "projects/project.png",
+      "description": "This is a project made to learn the latest languages by building an app.",
+      "skills": ["HTML", "CSS", "Javascript","ReactJs"],
+      "demo": "https://committodo.netlify.app/",
+      "source": "https://github.com/Dumisko/Todo-application"
+    },
     {
       "title": "Tic-Tac-Toe game",
       "imageSrc": "projects/tictactoe.png",
