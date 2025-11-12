@@ -12,7 +12,8 @@ function Hero() {
        
         <div className={styles.contactBtndiv}>
         <a className={styles.contactBtn} href="mailto:s.shasmal1980@gamil.com">contact me</a>
-        <a className={styles.contactBtn} href="/">resume</a>
+          {/* add resume link */}
+        <a className={styles.contactBtn} href="https://drive.google.com/file/d/1y--suDY-lgEvtxXmF-P6QXHnY-CLAmGh/view?usp=sharing">resume</a>
         </div>
 
       </div>
